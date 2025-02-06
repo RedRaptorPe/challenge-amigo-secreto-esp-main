@@ -58,4 +58,7 @@ Un navegador web moderno.
 
 # Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor, realiza un fork del repositorio y envía un pull request con tus cambios.
+
+# Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 </h4>
