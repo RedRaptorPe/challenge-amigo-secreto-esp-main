@@ -27,14 +27,18 @@ El proyecto incluye los siguientes archivos:
 
 # Cómo Jugar
 Ingresa el nombre de un amigo en el campo de texto.
+![image](https://github.com/user-attachments/assets/8958b79f-d8e1-4239-9e75-9bb6a7b27fc5)
 
 Haz clic en "Agregar Amigo" para añadir el nombre a la lista.
+![image](https://github.com/user-attachments/assets/56fe1f13-5af3-42fb-813e-eb1eda36d236)
 
 Repite el proceso para todos los amigos que deseas agregar.
+![image](https://github.com/user-attachments/assets/a552481e-6c0f-4d66-a7f8-098e7907f659)
 
 Haz clic en "Sortear Amigo" para seleccionar aleatoriamente a un amigo secreto.
 
 El resultado se mostrará en la página.
+![image](https://github.com/user-attachments/assets/f80970f6-828b-4baf-8bff-0828a34d1f76)
 
 Una vez que todos los amigos hayan sido sorteados, el juego se reiniciará automáticamente.
 
