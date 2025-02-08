@@ -4,21 +4,6 @@
   <img src="https://github.com/user-attachments/assets/03e03204-c9b8-4bd8-bdff-6ab0ea480fc7" alt="Descripción de la Imagen">
 </p>
 
-## Índice
-
--[Descripción del proyecto](##Descripcion)
-
--[Funcionalidades](#funcionalidades)
-
--[Estructura del Proyecto](#EstructuradelProyecto)
-
--[Acceso al proyecto](#acceso-proyecto)
-
--[Cómo Jugar](#CómoJugar)
-
--[Requisitos](#Requisitos)
-
--[Contribuciones](#Contribuciones)
 
 ## Descripcion
 <h4 align="center">
@@ -59,6 +44,3 @@ Un navegador web moderno.
 # Contribuciones
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor, realiza un fork del repositorio y envía un pull request con tus cambios.
 
-# Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-</h4>
