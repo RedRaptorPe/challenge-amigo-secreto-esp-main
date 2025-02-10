@@ -36,6 +36,29 @@ function reiniciarJuego()
     listaPosicionesSorteadas.length = 0;
 }
 
+//Validamos que el nombre introducido sea valido
+function validarAmigo(amigo){
+    let encontrado = true;
+
+    //verificamos que el nombre ingresado no sea algun espacio
+    if(amigo != ""){
+
+        //verificamos que el nombre ingresado no se repita
+        for(i=0;i<listaAmigos.length;i++)
+        {
+            if(amigo == listaAmigos[i]){
+                alert("EL NOMBRE YA SE ENCUENTRA EN LA LISTA");
+                encontrado = false;
+                break;
+            }
+        }
+    }else{
+        alert("POR FAVOR, INSERTE UN NOMBRE");
+        encontrado = false;
+    }
+    return encontrado;
+}
+
 //Generamos una posicion aleatoria
 function generarPosicion(cantidadAmigos){
     let posicion = Math.floor(Math.random()*cantidadAmigos);
@@ -57,15 +80,13 @@ function generarPosicion(cantidadAmigos){
 //Agregamos un amigo al arrelgo
 function agregarAmigo(){
     let amigo = document.getElementById('amigo').value.trim();
-    
-    //validamos que ingresen un nombre
-    if(amigo != ""){
+
+    //Si ingresa un nombre valido
+    if(validarAmigo(amigo)==true){
         listaAmigos.push(amigo);
         limpiarCaja();
-    }else{
-        alert("POR FAVOR, INSERTE UN NOMBRE");
+        actualizarListaAmigos();
     }
-    actualizarListaAmigos();
 }
 
 //Sorteamos al amigo
